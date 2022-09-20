@@ -1,1 +1,87 @@
 @import url(reset.css);
+
+body {
+    background-color: #0B1D26;
+    background-repeat: no-repeat;
+    background-image: url(/img/bg/bg.jpg);
+    background-size: cover;
+    color: white;
+}
+
+
+/* header */
+
+.header {}
+
+.container {
+    max-width: 1750px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header_hat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_hat a {
+    color: white;
+}
+
+.logo {
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+}
+
+.hat_nav ul {
+    display: flex;
+    gap: 40px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.hat_account {
+    position: relative;
+    padding-left: 36px;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.hat_account::before {
+    left: 0;
+    position: absolute;
+    content: url(/img/icons/account.svg);
+}
+
+.blok__content {
+    margin-top: 11%;
+    margin-left: 28%;
+}
+
+.blok__content:not(:last-child){
+    margin-top: 35px;
+}
+
+.content_top_title {
+    position: relative;
+    padding-left: 104px;
+
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    color: #FBD784;
+}
+
+.content_title {}
+
+.content_scroll {}
